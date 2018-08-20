@@ -18,7 +18,7 @@ static int  appropriate_window(t_vdata *vdata, t_arg *arg)
 	if (COLS < W_WIDTH || LINES < W_HEIGHT)
 	{  
 		visu_finalizing(vdata, arg);
-		ft_printf("Minimum window is %d columns and %d height.\n", W_WIDTH, W_HEIGHT);
+		ft_printf("Minimum window is %d columns and %d height.\n", W_WIDTH, W_HEIGHT); // test
 		return (0);
 	}
 	return (1);
